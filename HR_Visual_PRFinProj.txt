@@ -104,10 +104,10 @@ app.layout = html.Div(children=[
                                         # TODO2: Add a dropdown
                                         dcc.Dropdown(id='input-type', 
                                           options=[
-                                             {'label': 'Yearly Airline Performance Report', 'value': 'OPT'},
-                                             {'label': 'Yearly Airline Delay Report', 'value': 'OPT2'},
+                                             {'label': 'Yearly Airline Performance Report', 'value': 'OPT1'},
+                                             {'label': 'Yearly average flight delay statistics', 'value': 'OPT2'},
                                                   ],
-                                             value='OPT',
+                                             value='OPT1',
                                              placeholder="Select a report type", 
                                              style={'width':'80%', 'padding':'3px', 'font size':'20px', 'text-align-last':'center'},                                        
                                                     ),                                                                                                                                                                                        
